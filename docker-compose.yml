@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  notebook:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/workspace
+    ports:
+      - "8888:8888"
+    env_file:
+      - databricks.env
+    image: faeldon/data-science-stack
