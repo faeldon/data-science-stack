@@ -1,0 +1,6 @@
+# Jupyter checkpoint files
+*-checkpoint.ipynb
+.ipynb_checkpoints/
+
+# Local data files are ignored
+data/

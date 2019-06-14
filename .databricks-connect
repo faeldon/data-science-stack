@@ -1,0 +1,7 @@
+{
+  "host": "https://DATABRICKS_HOST",
+  "cluster_id": "DATABRICKS_CLUSTER_ID",
+  "org_id": "DATABRICKS_ORG_ID",
+  "port": "DATABRICKS_PORT",
+  "token": "DATABRICKS_TOKEN"
+}
